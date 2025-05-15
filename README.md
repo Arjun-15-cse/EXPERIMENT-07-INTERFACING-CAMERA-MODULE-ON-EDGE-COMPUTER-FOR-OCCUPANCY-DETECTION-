@@ -1,6 +1,4 @@
 # EXPERIMENT-07-INTERFACING-CAMERA-MODULE-ON-EDGE-COMPUTER-FOR-OCCUPANCY-DETECTION-
-
-
 ### AIM:
 To interface a USB/CSI camera module with an edge computing platform (e.g., Raspberry Pi, Jetson Nano, etc.) and implement an occupancy detection system using the Histogram of Oriented Gradients (HOG) algorithm.
 
@@ -51,7 +49,7 @@ Write the Python code to initialize the camera and implement the HOG algorithm.
 Run the code and verify that the system detects human presence and draws bounding boxes.
 
  ###  Python Code:
- 
+``` 
 import cv2
 import imutils
 
@@ -88,17 +86,14 @@ while True:
 cap.release()
 cv2.destroyAllWindows()
 
+```
+### SCREEN SHOTS OF OUTPUT :
 
-### SCREEN SHOTS OF OUTPUT 
+![WhatsApp Image 2025-05-15 at 11 25 30_e1889f35](https://github.com/user-attachments/assets/4cb9c28d-8684-432e-9289-a86021690f33)
 
+### RASPI INTERFACE :
 
-
-
-
-### RASPI INTERFACE 
-
-
-
+![WhatsApp Image 2025-05-15 at 11 36 46_e86e5252](https://github.com/user-attachments/assets/f7302c58-afdc-4d0c-b854-93bd28b96b52)
 
 ### Result:
 Occupancy detection using the HOG algorithm was successfully implemented. The system was able to identify and highlight human presence in real-time video streams.
